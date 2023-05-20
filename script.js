@@ -12,7 +12,6 @@ let display=0;
 let increaseByOne=()=>
 {
     ++display;
-   // console.log(display);
     output.value=display;
 }
 
@@ -21,7 +20,6 @@ let decreaseByOne=()=>{
     {
     --display;
     }
-    //console.log(display);
     output.value=display;
 }
 
@@ -30,6 +28,4 @@ let resetValue=()=>{
     display=0;
     output.value=display;
 }
-// increment.addEventListener("click", increaseByOne());
-// decrement.addEventListener("click", decreaseByOne);
-// reset.addEventListener("click", resetValue);
+
