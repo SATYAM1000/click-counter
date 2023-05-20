@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+.container
+{
+    width:35rem;
+    height:40rem;
+    background:#1B203A;;
+    margin: auto;
+    border-radius: 1.5rem;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding:2rem 2rem;
+    gap: 5rem;
+   
+}
+.output
+{
+    width:100%;
+    background-color:white;
+    height:5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(1,1,1,0.8);
+    overflow: hidden;
+}
+
+.output input
+{
+    width:100%;
+    height:5rem;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    padding:0.5rem 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    color: black;
+
+}
+
+.change
+{
+    width:100%;
+    height:5rem;
+    overflow:hidden;
+    border-radius: 1rem;
+    background: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    
+}
+
+.increase,.decrease
+{
+    height: 85%;
+    width: 12rem;
+    border-radius: 1rem;
+    background-color:#1F8A70 ;
+    color: white;
+    overflow: hidden;
+    
+    
+}
+.increase button, .decrease button
+{
+    width:100%;
+    height:100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.6rem;
+    background:rgba(1,1,1,0.4);;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background: transparent;
+}
+
+.reset-btn
+{
+    width:12rem;
+    height:5rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1F8A70;
+    margin-top: 10rem;
+
+}
+.reset-btn button
+{
+    width:100%;
+    height:100%;
+    color:white;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color:rgba(1,1,1,0.4);
+    
+}
+.reset-btn button:hover
+{
+    background: transparent;
+}
+

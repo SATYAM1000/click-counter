@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="output">
+            <input type="text" id="answer" value="0" disabled> </input>
+        </div>
+
+
+        <div class="change">
+            <div class="increase" id="add">
+                <button onclick="increaseByOne()">Increase</button>
+
+            </div>
+            <div class="decrease" id="subtract">
+                <button onclick="decreaseByOne()">Decrease</button>
+            </div>
+        </div>
+
+        <div class="reset-btn">
+            <button id="reon" onclick="resetValue()">Reset</button>
+
+        </div>
+
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
